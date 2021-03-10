@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "envId": "wzflwang-12c260",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "framework": {
+    "name": "luohu",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-next",
+        "inputs": {}
+      },
+      "server": {
+        "use": "@cloudbase/framework-plugin-function",
+        "inputs": {
+          "functionRootPath": "functions",
+          "functions": [
+          {
+            "name": "create-report",
+            "timeout": 5,
+            "envVariables": {},
+            "runtime": "Nodejs10.15",
+            "memory": 128
+          }],
+          "servicePaths": {
+            "next-ssr-echo": "/api"
+          }
+        }
+      }
+    }
+  }
+}

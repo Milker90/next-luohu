@@ -1,0 +1,40 @@
+{
+  "name": "next-ssr",
+  "version": "1.0.0",
+  "description": "云开发 CloudBase Next SSR App",
+  "author": "liyuanfeng",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "cloudbase framework deploy",
+    "deploy:client": "cloudbase framework deploy client",
+    "deploy:server": "cloudbase framework deploy server",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "antd-mobile": "^2.3.4",
+    "axios": "^0.21.1",
+    "axios-logger": "^2.5.0",
+    "babel-plugin-import": "^1.13.3",
+    "less": "^4.1.1",
+    "next": "9.5.4",
+    "null-loader": "^4.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-modal": "^3.12.1",
+    "react-slick": "^0.28.0",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.1.0",
+    "react-iconfont-cli": "^2.0.0"
+  },
+  "theme": {
+    "brand-primary": "red",
+    "color-text-base": "#333"
+  }
+}

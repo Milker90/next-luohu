@@ -1,0 +1,8 @@
+{
+    "symbol_url": "https://at.alicdn.com/t/font_2346194_ei8uey0lexo.js",
+    "use_typescript": false,
+    "save_dir": "./components/iconfont",
+    "trim_icon_prefix": "icon",
+    "unit": "px",
+    "default_icon_size": 18
+}
